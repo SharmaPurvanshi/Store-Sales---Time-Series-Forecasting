@@ -20,16 +20,10 @@ This project focuses on predicting store sales using machine learning techniques
 3. **Model Training and Evaluation:**
     - Training Random Forest and LightGBM models.
     - Hyperparameter tuning.
-    - Evaluating model performance using RMSE and R² metrics.
+    - Evaluating model performance using RMSLE metric.
 
-## Requirements
+Install the required packages:
 
-The project requires the following Python packages:
-
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- plotly
-- scikit-learn
-- lightgbm
+    ```bash
+    pip install -r requirements.txt
+    ```
